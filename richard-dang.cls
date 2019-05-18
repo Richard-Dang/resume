@@ -16,7 +16,7 @@
 \setlength{\hdrheight}{40mm}
 % Vertical space between rows/paragraphs
 \newlength{\vspacepar}
-\setlength{\vspacepar}{0.2\baselineskip}
+\setlength{\vspacepar}{-0.2\baselineskip}
 % Horizontal space before and after vertical bar (|) between address and contact details
 \newlength{\hspaddress}
 \setlength{\hspaddress}{0.4em}
