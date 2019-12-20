@@ -9,10 +9,10 @@
 
 
 \header{Richard}{Dang}
-{4A} {Computer Engineering}
+{University of Waterloo} {- Computer Engineering}
 {{\faMobile \hspace{\FAspace} (647) 717-0339 
 \sep \faEnvelope \hspace{\FAspace}
-\href{mailto:r22dang@uwaterloo.ca}{r22dang@edu.uwaterloo.ca}
+\href{mailto:richardspacedang@gmail.com}{richardspacedang@gmail.com}
 \sep \faSearch \hspace{\FAspace}
 \href{http://richarddang.com}{richarddang.com}
 \sep \faGithub \hspace{\FAspace}
@@ -25,17 +25,28 @@
 \section*{SKILLS}
 \medbreak
 \begin{tabularcv}
-        &  \worktitle{\textbf{LANGUAGES}\hspace{5.6mm}}{Java, C++, JavaScript, Scala, SQL, HTML and CSS }
+        &  \worktitle{\textbf{LANGUAGES}\hspace{5.6mm}}{Java, Python, JavaScript, Scala, SQL, HTML and CSS }
         \\
-        &  \worktitle{\textbf{TECHNOLOGIES}}{Hortonworks Data Platform, Docker, Maven, Spring, Hibernate, Jenkins, Git and IntelliJ}
+        &  \worktitle{\textbf{TECHNOLOGIES}}{Spark, Kafka, AWS EMR/S3, Hortonworks, Docker, Maven, Jenkins, Git and JetBrains}
         \\
-        &  \worktitle{\textbf{CONCEPTS}\hspace{8mm}}{Distributed Systems, Functional Programming, OOP, MVC, REST API, CI/CD and Agile}
+        &  \worktitle{\textbf{CONCEPTS}\hspace{8mm}}{Distributed Systems, OOP, REST API, CI/CD and Agile}
 \end{tabularcv}   
 
 % \section*{\faGroup \hspace{\FAspace} EXPERIENCE}
 \section*{EXPERIENCE}
 \medbreak
 \begin{tabularcv}
+    Sep. – \newline 
+    Dec. 2019   &  
+                    \href{https://www.nerdwallet.com}{
+                    \worktitle{Data Engineering}{Nerdwallet  ---  San Francisco, CA}}
+                    \begin{tabitemize}
+                        \item Created \textbf{Spark streaming} app to enrich traffic events at \textbf{6400 events/sec} from Kafka to S3
+                        \item Developed near real-time streaming app that groups events into sessions based on user inactivity
+                        \item Used Spark \textbf{batch processing} to detect and categorize bot activity in event traffic on a daily basis
+                        \item Set up cluster infrastructure for \textbf{Kafka} and \textbf{AWS EMR} to host Spark applications
+                    \end{tabitemize} 
+                    \\[\vspacepar]\\[\vspacepar]
     Sep. – \newline 
     Dec. 2018   &  
                     \href{https://www.ultimatesoftware.com}{
@@ -44,7 +55,7 @@
                         \item Developed \textbf{Spark} apps for event ingestion and GDPR which processes over \textbf{600 events/sec}
                         \item Built a \textbf{Spark streaming} app for processing and replaying events with \textbf{Kafka} integration
                         \item Setup \textbf{Hadoop} on a \textbf{Docker} environment for automated integration testing through \textbf{Concourse}
-                        \item Integrated metrics instrumentation using \textbf{AOP} allowing for greater insights on app performance 
+                        \item Integrated metrics instrumentation using \textbf{AOP} allowing for greater insights on app performance
                     \end{tabitemize} 
                     \\[\vspacepar]\\[\vspacepar]
     Jan. – \newline 
@@ -52,9 +63,9 @@
                     \href{https://www.ultimatesoftware.com}{
                     \worktitle{Software Engineering}{Ultimate Software  ---  Toronto, ON}}
                     \begin{tabitemize}
-                        \item Introduced functionality to host web app used for managing thousands of Android, Linux, and web time clocks, maintained through \textbf{GWT}, \textbf{Spring and Hibernate}
+                        \item Introduced functionality to host web app used for managing time clocks with \textbf{Spring} and \textbf{Hibernate}
                         \item Created GDPR app to purge deleted employees by implementing schema constraints to maintain database integrity using \textbf{Liquibase}
-                        \item Incorporated features on web time clock app using \textbf{AngularJS} to allow supervisors to override employee check-ins
+                        \item Incorporated supervisor override check-in feature on web time clock app using \textbf{AngularJS}
                     \end{tabitemize} 
                     \\[\vspacepar]\\[\vspacepar]
     May – \newline 
@@ -62,9 +73,8 @@
                     \href{http://hubdoc.com}{
                     \worktitle{Software Developer}{Hubdoc  ---  Toronto, ON}}
                     \begin{tabitemize}
-                        \item Built and migrated hundreds of document fetching microservices from \textbf{PhantomJS} to \textbf{NightmareJS}, increasing reliability from \textbf{46\%} to \textbf{73\%}
+                        \item Built and migrated hundreds of document fetching services, increasing reliability from \textbf{46\%} to \textbf{73\%}
                         \item Implemented an intranet dashboard with \textbf{ExpressJS} and \textbf{BackboneJS} used for proxy management
-                        \item Integrated webhook within web app for receiving updated user credential alerts 
                     \end{tabitemize} 
                     \\[\vspacepar]\\[\vspacepar]
     Sep. – \newline 
@@ -73,7 +83,6 @@
                     \worktitle{Associate QA Analyst}{Flipp  ---  Toronto, ON}}
                     \begin{tabitemize}
                         \item Introduced continuous integration across multiple projects providing early risk detection, feedback loops, and quick deployments utilizing \textbf{Jenkins}
-                        \item Developed automated system checks to enable back-end health monitoring across all platforms
                         \item Automated performance testing to ensure response times for A/B test framework using \textbf{JMeter}
                     \end{tabitemize} 
     % Jan. – \newline 
@@ -99,13 +108,6 @@
                     \end{tabitemize} 
                     \\[\vspacepar]\\[\vspacepar]
     Jul. -  \newline 
-    Aug. 2017   &   
-                    \href{https://github.com/Richard-Dang/AtomLeetCode}{
-                    \worktitle{Atom Leetcode}{ES6 JavaScript, Node.js, Travis CI and Jasmine}}
-                    \begin{tabitemize}
-                        \item Atom package that extracts coding challenges and solutions from Leetcode into Atom text editor
-                    \end{tabitemize} 
-                    \\[\vspacepar]\\[\vspacepar]
     Nov. 2016   &   \href{https://github.com/Richard-Dang/AlexaBuddy}{
                     \worktitle{Alexa Buddy}{Python, Flask-Ask, Indico API and Reddit API}}
                     \begin{tabitemize}
@@ -113,13 +115,6 @@
                         \item Won \textbf{\href{https://devpost.com/software/alexabuddy}{Best Hack Against Online Harassment}} at Electric City Hacks
                     \end{tabitemize} 
                     \\[\vspacepar]\\[\vspacepar]
-    May – \newline 
-    Jul. 2016   &   
-                    \href{https://github.com/Richard-Dang/step-tracker}{
-                    \worktitle{Step Tracker}{Java and Android Studio}}
-                    \begin{tabitemize}
-                        \item Android app that utilizes device sensors and finite state machines to track steps and detect direction
-                    \end{tabitemize} 
 \end{tabularcv}   
 
 % \section*{\faMortarBoard \hspace{\FAspace} EDUCATION}
@@ -130,7 +125,7 @@
     Apr. 2020 (expected)   &   
                     \worktitle{Computer Engineering (Bachelor of Applied Science)}{University of Waterloo}
                     \begin{tabitemize}
-                        \item Distributed Computing, Data Structures and Algorithms, Database Systems, Computer Networks, Computer Security, Operating Systems, and Compilers 
+                        \item Distributed Computing, Data Structures and Algorithms, Algorithm Design and Analysis, Database Systems, Programming for Performance, Computer Networks, Computer Security, Operating Systems, and Compilers 
                     \end{tabitemize} 
 
 \end{tabularcv}
